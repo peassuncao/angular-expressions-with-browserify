@@ -1,8 +1,8 @@
 {
-  "name": "angular-expressions",
+  "name": "angular-expressions-with-browserify",
   "version": "1.1.5",
-  "description": "Angular expressions as standalone module",
-  "main": "./lib/main.js",
+  "description": "Angular expressions as standalone module with browserify",
+  "main": "./lib/bundle.js",
   "scripts": {
     "es-check": "es-check es5 lib/*.js",
     "preversion": "npm run es-check && npm run lint && npm run test",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/peerigon/angular-expressions.git"
+    "url": "https://github.com/peassuncao/angular-expressions-with-browserify.git"
   },
   "testling": {
     "harness": "mocha",
@@ -47,6 +47,6 @@
       "android-browser/latest"
     ]
   },
-  "author": "peerigon <developers@peerigon.com>",
+  "author": "peerigon <developers@peerigon.com> + peassuncao(browserified)",
   "license": "Unlicense"
 }
